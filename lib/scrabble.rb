@@ -1,3 +1,4 @@
+class String
   define_method(:scrabble) do
     score = 0
 
@@ -39,3 +40,4 @@
     score
 
   end
+end
