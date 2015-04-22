@@ -21,8 +21,8 @@ describe("scrabble") do
   end
 end
 
-    describe('scrabble_spec_path', {:type => :feature})do
-    it('takes user input and returns scrabble score')do
+describe('scrabble_spec_path', {:type => :feature})do
+  it('takes user input and returns scrabble score')do
     visit('/')
     fill_in('word', :with => 'aaaa')
     click_button('Send')
